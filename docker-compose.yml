@@ -4,4 +4,4 @@ services:
     image: eduardoshanahan/elk:latest
     container_name: es_elk
     entrypoint:
-      - /bin/bash
+      - /bin/sh

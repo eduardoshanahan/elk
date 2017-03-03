@@ -10,4 +10,4 @@ RUN wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.0.
 # RUN tar -xzf elasticsearch-5.0.1.tar.gz
 # RUN cd elasticsearch-5.0.1/
 
-ENTRYPOINT /bin/sh
+ENTRYPOINT ["/bin/sh"]
